@@ -2,7 +2,7 @@
 // INF 653 Backend I
 // 2/6/2025
 
-
+// Operators and if...else Challenges 
 // Challenge 1
 <?php
 // Define two numbers
@@ -94,5 +94,67 @@ if (($year % 4 == 0 && $year % 100 != 0) || ($year % 400 == 0)) {
     echo "Output: $year is not a leap year.\n";
 }
 ?>
+
+// Syntax and Variables Challenges
+// Challenge 1
+<?php
+// Declare variables
+$name = "Oumar Mballo";
+$age = 22; 
+$favorite_color = "blue"; 
+// Display the sentence
+echo "My name is $name, I am $age years old and my favorite color is $favorite_color.";
+?>
+
+// Challenge 2
+<?php
+// Using escape characters for quotes
+echo "He said, \"PHP is fun!\" and left.\n";
+
+// Using \n for a multi-line message
+echo "First line\nSecond line";
+?>
+
+// Challenge 3 
+<?php
+// Declare variables
+$greeting = 'Hello';
+$age = 25; 
+
+// Display messages
+echo "Welcome to the PHP world!\n";
+echo "Your age is $age"; 
+?>
+
+// Challenge 4 
+<?php
+// Display message
+echo "Welcome to PHP!\n";
+
+// Correct variable declaration
+$name = "John"; 
+
+// Corrected string interpolation
+echo "Hello, $name";
+?>
+
+// Challenge 5 
+<?php
+// Define the initial price of the product
+$price = 50; 
+
+# Define the discount amount
+$discount = 10; 
+
+/* 
+   Calculate the final price by subtracting 
+   the discount from the original price 
+*/
+$finalPrice = $price - $discount; 
+
+// Display the total price
+echo "Total price: $" . $finalPrice; 
+?>
+
 
 
